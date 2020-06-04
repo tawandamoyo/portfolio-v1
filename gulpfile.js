@@ -9,7 +9,9 @@ gulp.task('sass', () => {
 });
 
 gulp.task('watch', () => {
-    gulp.watch('./sass/**/*.scss', gulp.series(['sass']));
+    gulp.watch('./sass/**/*.scss', gulp.series(['sass'])); //watches any changes
 
 });
 
+
+//run gulp watch on command line
