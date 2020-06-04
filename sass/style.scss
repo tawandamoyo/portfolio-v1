@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+//Base (Fonts, color variables, rem definitions etc)
+
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.6rem;
+}
+
+//Header
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+
+    .site-title {
+        text-transform: uppercase;
+    }
+
+    .top-nav {
+
+
+        &__menu {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                margin: 2rem;
+                list-style: none;
+            }
+        }
+    }
+    
+}

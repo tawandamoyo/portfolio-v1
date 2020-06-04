@@ -1,0 +1,29 @@
+{
+  "name": "tawanda-website",
+  "version": "1.0.0",
+  "description": "simple portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tawandamoyo/portfolio-v1.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "sass"
+  ],
+  "author": "\u001b[A\u001b[B\u001b[A\u001b[Btawanda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tawandamoyo/portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/tawandamoyo/portfolio-v1#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
