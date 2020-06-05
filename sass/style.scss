@@ -41,3 +41,35 @@ body {
     }
     
 }
+
+//Main Area
+
+.main {
+    max-width: 70rem;
+    margin: auto;
+}
+
+//Sections
+
+section {
+    margin: auto;
+}
+
+.intro {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    &__headline {
+
+    }
+
+    &__avatar {
+        height:25rem;
+        border-radius: 50%;
+        padding-bottom: 5rem;
+
+    }
+}

@@ -22,3 +22,20 @@ body {
     .header .top-nav__menu li {
       margin: 2rem;
       list-style: none; }
+
+.main {
+  max-width: 70rem;
+  margin: auto; }
+
+section {
+  margin: auto; }
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; }
+  .intro__avatar {
+    height: 25rem;
+    border-radius: 50%;
+    padding-bottom: 5rem; }
